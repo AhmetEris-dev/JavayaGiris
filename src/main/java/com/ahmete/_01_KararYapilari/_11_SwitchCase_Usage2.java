@@ -2,11 +2,11 @@ package com.ahmete._01_KararYapilari;
 
 public class _11_SwitchCase_Usage2 {
 	public static void main(String[] args) {
-		int month = 50;
-		String deger = "birşeyler";
+		int month = 5;
+		
 		String ay = switch (month) {
 			case 1 -> "Ocak";
-			case 2 -> "Şubat";
+			case 2 -> "Subat";
 			case 3 -> "Mart";
 			case 4 -> "Nisan";
 			case 5 -> "Mayıs";
@@ -16,7 +16,7 @@ public class _11_SwitchCase_Usage2 {
 		
 		System.out.println(ay);
 		
-		int gun=7;
+		int gun=6;
 		String gunTip=switch (gun){
 			case 1,2,3,4,5 ->"Hafta İçi";
 			case 6,7 ->"Hafta sonu";

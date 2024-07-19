@@ -2,7 +2,7 @@ package com.ahmete._01_KararYapilari;
 
 public class _12_SwitchCase_Usage3 {
 	public static void main(String[] args) {
-		int n=2;
+		int n=1;
 		double sayi1=10;
 		double sayi2=20;
 		double result;

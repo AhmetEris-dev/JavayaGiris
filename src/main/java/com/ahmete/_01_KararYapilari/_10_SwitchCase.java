@@ -43,7 +43,8 @@ public class _10_SwitchCase {
 		ay=switch (month) {
 			case 1-> "Ocak";
 			
-			case 2-> "Şubat";
+			case 2-> "S" +
+					"ubat";
 			
 			default->"Değer yanlış.";
 			

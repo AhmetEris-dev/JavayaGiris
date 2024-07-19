@@ -14,14 +14,9 @@ public class _03_While_Factorial {
 		System.out.print("Faktoryeli alınacak sayıyı giriniz: ");
 		int sayi = sc.nextInt();
 		long factorial = 1;
-		System.out.print(sayi+"! = ");
+		
 		while (sayi > 0) {
-			if (sayi == 1) {
-				System.out.print(sayi);
-			}
-			else {
-				System.out.print(sayi + "*");
-			}
+			
 			factorial *= sayi;
 			sayi--;
 			

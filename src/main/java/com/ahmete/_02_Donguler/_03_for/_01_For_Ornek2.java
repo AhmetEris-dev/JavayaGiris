@@ -23,7 +23,7 @@ public class _01_For_Ornek2 {
 			System.out.println("+++ >>"+j);
 			j++;
 		}
-		// 1-100e kadar olan çift sayıları for döngüsü ile yazdırın: (Muzaffer)
+		// 1-100e kadar olan çift sayıları for döngüsü ile yazdırın:
 		for (int k = 0; k <= 100; k=k+2) {
 			System.out.print(k+"-");
 		}
